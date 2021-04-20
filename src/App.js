@@ -19,6 +19,7 @@ const FormWrapper = styled.div`
   max-width: 550px;
   width: 100%;
   section {
+    padding: 2rem;
     @media screen and (max-width: 1023px) {
       padding: 1rem;
     }
