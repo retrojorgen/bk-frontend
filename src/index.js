@@ -18,6 +18,10 @@ body {
 
 }
 
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --blue: #1362ae;
   --lightBlue: #cde1f9;

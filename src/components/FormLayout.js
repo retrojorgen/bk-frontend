@@ -16,11 +16,13 @@ const Legend = styled.legend`
 `;
 
 const Label = styled.label`
-  display: flex;
-  align-items: center;
   margin-bottom: 0.4rem;
+  display: block;
   span {
-    margin-right: 20px;
+    display: block;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    margin-bottom: 0.2rem;
   }
 `;
 

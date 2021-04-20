@@ -55,7 +55,7 @@ function FormList({ records, setRecords }) {
         </InputRow>
       ))}
       <SmallButton type="button" onClick={addRecord}>
-        + Add work location
+        + Add location
       </SmallButton>
     </>
   );

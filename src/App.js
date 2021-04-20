@@ -16,9 +16,15 @@ import { Button, ResetButton } from "./components/Buttons";
 import styled from "styled-components";
 
 const FormWrapper = styled.div`
-  width: 550px;
-  max-width: 100%;
+  max-width: 550px;
+  width: 100%;
+  section {
+    @media screen and (max-width: 1023px) {
+      padding: 1rem;
+    }
+  }
   h1 {
+    margin: 0;
     font-size: 2.25rem;
     margin-bottom: 2rem;
   }
