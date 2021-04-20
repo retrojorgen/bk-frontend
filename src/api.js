@@ -25,7 +25,10 @@ const getData = async (data) => {
     body: JSON.stringify(sanitizeData(data)),
   };
   try {
-    const fetchResponse = await fetch(`http://localhost:5000`, settings);
+    const fetchResponse = await fetch(
+      `https://9f22opit6e.execute-api.us-east-2.amazonaws.com/default/reisefradrag`,
+      settings
+    );
     const data = await fetchResponse.json();
     return data;
   } catch (e) {
