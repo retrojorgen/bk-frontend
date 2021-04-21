@@ -91,9 +91,7 @@ function App() {
             <FormList records={visitTravel} setRecords={setVisitTravel} />
           </Fieldset>
           <Fieldset>
-            <Legend>
-              Number of travelling days per year to other locations
-            </Legend>
+            <Legend>Toll, ferry and other expenses</Legend>
             <InputRow>
               <Label>
                 <span>Input in NOK:</span>
