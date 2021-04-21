@@ -28,7 +28,7 @@ function FormList({ records, setRecords }) {
             />
           </Label>
           <Label>
-            <span>Number of trips:</span>
+            <span>Number of days:</span>
             <Input
               type="number"
               placeholder="amount"
